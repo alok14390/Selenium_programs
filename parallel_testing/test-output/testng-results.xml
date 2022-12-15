@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-07T16:28:36Z" name="Suite" finished-at="2022-11-07T16:28:49Z" duration-ms="13195">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T16:28:36Z" name="Test1" finished-at="2022-11-07T16:28:44Z" duration-ms="8198">
+      <class name="parallel_testing.pt">
+        <test-method is-config="true" signature="testcase1(java.lang.String)[pri:0, instance:parallel_testing.pt@95e33cc]" started-at="2022-11-07T21:58:36Z" name="testcase1" finished-at="2022-11-07T21:58:44Z" duration-ms="8116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="test()[pri:0, instance:parallel_testing.pt@95e33cc]" started-at="2022-11-07T21:58:44Z" name="test" finished-at="2022-11-07T21:58:44Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- parallel_testing.pt -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-11-07T16:28:36Z" name="Test" finished-at="2022-11-07T16:28:49Z" duration-ms="13195">
+      <class name="parallel_testing.pt">
+        <test-method is-config="true" signature="testcase1(java.lang.String)[pri:0, instance:parallel_testing.pt@1bd39d3c]" started-at="2022-11-07T21:58:36Z" name="testcase1" finished-at="2022-11-07T21:58:49Z" duration-ms="13168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="test()[pri:0, instance:parallel_testing.pt@1bd39d3c]" started-at="2022-11-07T21:58:49Z" name="test" finished-at="2022-11-07T21:58:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- parallel_testing.pt -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
